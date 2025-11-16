@@ -1,9 +1,9 @@
 {
   "name": "koishi-plugin-qwen-yexingzhi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "homepage": "https://example.com",
-  "repository": {                           
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/alice/koishi-plugin-example.git"
   },
@@ -16,14 +16,20 @@
     "koishi": "^4.18.7"
   },
   "koishi": {
-    "description": {                        
+    "description": {
       "en": "qwen",
       "zh": "阿里云千问大模型适配"
     },
     "service": {
-      "required": [""],             
-      "optional": [""],               
-      "implements": [""]  
+      "required": [
+        ""
+      ],
+      "optional": [
+        ""
+      ],
+      "implements": [
+        ""
+      ]
     }
   }
 }
